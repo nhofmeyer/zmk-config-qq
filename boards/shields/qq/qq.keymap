@@ -9,15 +9,15 @@
         // Define the keymap for the QQ shield
         default_layer {
             bindings = <
-                &kp Q KEYCODE_Q
-                &kp W KEYCODE_W
-                &kp E KEYCODE_E
-                &kp R KEYCODE_R
-                &kp T KEYCODE_T
-                &kp Y KEYCODE_Y
-                &kp U KEYCODE_U
-                &kp I KEYCODE_I
-                &kp O KEYCODE_O
+                &kp Q
+                &kp W
+                &kp E
+                &kp R
+                &kp T
+                &kp Y
+                &kp U
+                &kp I
+                &kp O
             >;
         };
     };
