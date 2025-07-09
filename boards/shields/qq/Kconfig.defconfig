@@ -1,0 +1,6 @@
+if SHIELD_QQ
+
+config ZMK_KEYBOARD_NAME
+    default "QQ Left"
+
+endif

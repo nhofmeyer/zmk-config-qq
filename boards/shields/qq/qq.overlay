@@ -1,0 +1,22 @@
+
+/ {
+    chosen {
+        zmk,kscan = &qq_kscan;
+    };
+
+    qq_kscan: kscan {
+        compatible = "zmk, kscan-gpio-direct";
+        wakeup-source;
+        label = "qq_kscan";
+        input-gpios = 
+            <&pro-micro 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+            <&pro-micro 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+            <&pro-micro 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+            <&pro-micro 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+            <&pro-micro 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+            <&pro-micro 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+            <&pro-micro 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+            <&pro-micro 7 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+            <&pro-micro 8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+    };
+};
